@@ -40,5 +40,62 @@ You can create a virtual machine using the Google cloud console.
 - Can help save you 90% on VM & vCPU costs for workloads that does not require a human to sit there and inspect it.
 - You can use Google cloud online price calculator to check how much your task can cost
 
+-----------------------------------------------------------------------------------------------------------------------------
+
+## Exploring PaaS with App Engine
+
+Basically, go with App engine if you just want to write code and not actually touch or work with Cloud infrastructure. Its a quick way to scale your application quickly. App engine allows you to have high availability apps without complex architecture. 
+
+##### How does it work?
+
+![How does it work](https://i.imgur.com/FjnibnF.png)
+
+App Engine also provides Software Development kits (SDKs)
+- API and libraries
+- Sandbox environment
+- Deployment tools
+
+#### Now, there are two types of App Engine environments:
+The App Engine Standard Environment
+- Has persistent storage with queries, sorting, and transactions
+- Automatic scaling and load balancing
+- Asynchronous task queues for performing work outside the scope of a request
+- Scheduled tasks for triggering events at specified times or regular intervals
+- Integration with other Google Cloud services
+
+There are however two requirements to run the standard environment: 
+1. Use specified versions of Java, Python, PhP, GO, Node.js, and Ruby
+2. Applications must conform to sandbox restraints
+
+## The Standard Environment Workflow
+
+![Workflow](https://i.imgur.com/qej3zhZ.png)
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+## Then we get into the flexible environment
+- Instances are health-checked, healed, and co-located
+- Critical backwards-compatible backups are automatically made and applied to the system
+- VM instances are automatically located by geographical regions according to the settings in your project
+- VM instances are restarted on a weekly basis
+
+#### Advantages of flexible environments
+1. Take advantage of custom configurations and libraries, while focusing on writing code
+2. Customize the runtime and the operating system of your VM
+3. Customize or provide runtimes by supplying a custom Docker image or Dockerfile
+
+### Lets Compare the two Environments:
+
+![Compare](https://i.imgur.com/89R2FM4.png)
+
+
+
+
+
+
+
+
+
+
 
 
