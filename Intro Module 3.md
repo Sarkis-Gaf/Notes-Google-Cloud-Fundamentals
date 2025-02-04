@@ -97,7 +97,18 @@ The Google Kubernetes Engine is a mix of the Compute Engine (with servers, netwo
 ![Table](https://i.imgur.com/ysqLCZ3.png)
 
 #### Now what is a Container?
-Think of it like an invisible box around your code and its dependencies. It has limited access to its own partition of the file system and hardware. Only requires a few system calls to create and starts working ASAP. You need an OS kernel that supports containers and a container runtime, on each host. It scales like [PaaS](https://github.com/Sarkis-Gaf/Notes-Google-Cloud-Fundamentals/edit/main/Intro%20Module%203.md#exploring-iaas-with-compute-engine) but has the same flexibility as IaaS. 
+Think of it like an invisible box around your code and its dependencies. It has limited access to its own partition of the file system and hardware. Only requires a few system calls to create and starts working ASAP. You need an OS kernel that supports containers and a container runtime, on each host. It scales like [PaaS](https://github.com/Sarkis-Gaf/Notes-Google-Cloud-Fundamentals/edit/main/Intro%20Module%203.md#exploring-iaas-with-compute-engine) but has the same flexibility as IaaS.
+
+You probably want build your application with multiple containers, each performing its own function. You can make them modular and easily deployable. 
+
+### What is Kubernetes?
+
+![Kubernetes](https://i.imgur.com/xsJc69R.png)
+
+GKE (Google Kubernetes Engine) is a managed environment for deploying containerized apps. It is a sophisticated management system that runs docker containers in the google cloud. Think of it like a container organizer. 
+
+
+
 
 
 
