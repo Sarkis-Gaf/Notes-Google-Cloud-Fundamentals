@@ -107,6 +107,30 @@ You probably want build your application with multiple containers, each performi
 
 GKE (Google Kubernetes Engine) is a managed environment for deploying containerized apps. It is a sophisticated management system that runs docker containers in the google cloud. Think of it like a container organizer. 
 
+---------------------------------------------------------------------------------------------------------------------------------
+
+## Cloud Run
+What is Cloud Run?
+
+Cloud Run is managed serverless computing:
+- A managed compute platform that can run stateless containers
+- Serverless, removing the need for infrastructure management
+- Built on Knative, an open API and runtime environment built on Kubernetes
+- Can automatically scale up and down from zero almost instantaneously, charging only for resources used
+
+Here is the 3-step process:
+1. Write your code (source code)
+2. Build & package: container image (inside the application)
+3. Deploy the container image to Cloud Run
+
+How does Cloud Run handle HTTPS?
+
+![HTTPS](https://i.imgur.com/e9eC6I7.png)
+
+For cloud run, you are only charged when your container handles requests.
+
+
+
 
 
 
