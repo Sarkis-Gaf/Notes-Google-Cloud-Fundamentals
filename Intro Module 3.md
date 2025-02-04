@@ -88,6 +88,18 @@ There are however two requirements to run the standard environment:
 
 ![Compare](https://i.imgur.com/89R2FM4.png)
 
+---------------------------------------------------------------------------------------------------------------------------------
+
+## Containerization (Kubernetes)
+
+The Google Kubernetes Engine is a mix of the Compute Engine (with servers, networking, storage) and the App Engine (Present run-times, managed services).
+
+![Table](https://i.imgur.com/ysqLCZ3.png)
+
+#### Now what is a Container?
+Think of it like an invisible box around your code and its dependencies. It has limited access to its own partition of the file system and hardware. Only requires a few system calls to create and starts working ASAP. You need an OS kernel that supports containers and a container runtime, on each host. It scales like [PaaS](https://github.com/Sarkis-Gaf/Notes-Google-Cloud-Fundamentals/edit/main/Intro%20Module%203.md#exploring-iaas-with-compute-engine) but has the same flexibility as IaaS. 
+
+
 
 
 
