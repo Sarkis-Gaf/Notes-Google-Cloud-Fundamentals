@@ -54,5 +54,39 @@ An ideal location for a bucket is where latency is minimized.
 
 Now the thing is, Cloud Storage objects are immutable, you cannot directly edit them, instead you can create a new version of them.
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## SQL Managed Services
+
+What is a database?
+A database is an organized collection of information that can be easily accessed and managed. Computer applications run databases to get a fast answer to questions. 
+
+Relational Databases are the most common database management systems
+
+#### What is Cloud SQL
+
+Offers fully manageable relational databases such as mySQL, PostreSQL, and SQL server. It mainly operates mundane, but necessary background tasks like managing backups and configuring replications. 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Now what is Spanner?
+
+Spanner is a fully managed relational databases that combines aspects of SQL & noSQL
+
+#### Spanner is used for:
+![Spanner](https://i.imgur.com/zxhosbg.png)
+
+How does Spanner work?
+
+Data is copied seamlessly throughout zones. It is basically replicated across other regions to ensure data can be available if one area falls short. 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Big Table as a NoSQL option
+
+Bigtable handles massive workloads (ex. Gmail) and it has consistent low latency, and is an overall great choice for operational applications and analytical applications
+
+
+
 
 
